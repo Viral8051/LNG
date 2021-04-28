@@ -1,0 +1,428 @@
+@media screen and (max-width:1693px) {
+    .pow-world-class-img {
+        max-height: 730px;
+    }
+}
+
+@media screen and (max-width:1680px) {
+    .pow-world-class-right {
+        padding: 5.8rem 0;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .pow-project-white-fadeout {
+        background: linear-gradient(180deg, rgba(16, 13, 43, 0), rgba(16, 13, 43, 0.8) 50%, #100d2bd4 100%);
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .pow-world-class-right {
+        padding: 4.8rem 0;
+    }
+    video#background-video {
+        border-radius: 0 0 0 15px;
+        min-height: 780px;
+        object-fit: inherit !important;
+        max-height: unset;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .pow-projects-preview-content-container {
+        width: 90vw;
+        height: 90vw;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .pow-world-class-right {
+        padding: 60px 0 30px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    video#background-video {
+        border-radius: 0 0 0 15px;
+        min-height: 870px;
+    }
+    .pow-hero-right-play {
+        min-height: 870px;
+    }
+    .pow-world-class-img img {
+        min-height: 660px;
+        max-height: 100%;
+    }
+    .pow-online-class-tips-left {
+        width: 50%;
+    }
+    .pow-online-class-tips-right {
+        width: 50%;
+    }
+    .hm-desc {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .pow-world-class-right {
+        padding: 45px 0 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    .pow-projects-preview-content-container {
+        height: 100vw;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .hamburger {
+        display: none;
+    }
+    .pow-header-links.active {
+        display: flex;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .pow-right-hero {
+        width: 100%;
+    }
+    .student-image-projects-preview-item {
+        width: 21vw;
+        max-width: 300px;
+        margin: 10px 5px;
+        border-radius: 9px;
+        overflow: hidden;
+        transform: translateZ(0);
+    }
+    .pow-projects-preview-content-container {
+        padding-left: 0;
+    }
+    .pow-header-links.active {
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        padding-left: 0;
+        background: #fff;
+        top: 100%;
+        z-index: 1;
+        transform: translateX(0%);
+        transition: 0.4s all ease-in-out;
+    }
+    .pow-header-li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 0;
+    }
+    .pow-header-links {
+        display: none;
+        transform: translateX(-100%);
+        transition: 0.4s all ease-in-out;
+    }
+    .pow-hero-section {
+        flex-direction: column;
+    }
+    .pow-left-hero {
+        width: 100%;
+    }
+    .pow-right-hero {
+        width: 100%;
+    }
+    .pow-homepage-video-container {
+        width: 100%;
+        position: relative;
+    }
+    video#background-video {
+        border-radius: 0;
+        display: block;
+    }
+    .pow-right-hero {
+        position: relative;
+    }
+    .pow-homepage-video-container {
+        min-height: 100%;
+    }
+    .pow-hero-right-play {
+        top: 55%;
+        bottom: 0;
+        width: 100%;
+        min-height: fit-content;
+        background-color: transparent;
+    }
+    .pow-courses-details {
+        padding: 30px 0;
+    }
+    .pow-courses-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .pow-benifit-section {
+        padding: 70px 0;
+    }
+    .pow-unique-programme-section {
+        padding: 70px 0 30px;
+    }
+    .pow-scco-box-details {
+        padding-left: 20px;
+        width: 75%;
+    }
+    .pow-world-class-right-title h2 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .pow-world-class-container {
+        flex-direction: column;
+    }
+    .pow-world-class-left {
+        width: 100%;
+        display: none;
+    }
+    .pow-world-class-right {
+        display: block;
+        width: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("/images/worlclasslef.png");
+        padding: 90px 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .pow-world-class-right-inner {
+        align-items: center;
+    }
+    .pow-world-class-right-title {
+        text-align: center;
+    }
+    .pow-world-class-right-title h2 {
+        text-align: center;
+    }
+    .pow-world-class-right-desc p {
+        text-align: center;
+    }
+    .pow-acco-box-days {
+        padding: 40px 10px;
+    }
+    .pow-online-share-journy-container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .pow-online-share-journy-box {
+        width: 45%;
+        margin-right: 0;
+    }
+    .pow-online-share-journy-box:last-child {
+        margin-top: 30px;
+    }
+    .pow-student-review-videos-container {
+        flex-direction: column-reverse;
+    }
+    .pow-student-review-videos-thumbnnails-container {
+        width: 100%;
+    }
+    .pow-student-video-container {
+        width: 100%;
+        padding-left: 0;
+    }
+    .pow-ready-level-content-container {
+        padding: 40px 20px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .pow-benifit-inner-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .pow-benifit-play {
+        left: 45%;
+    }
+    .acco-vid-link {
+        left: 25%;
+    }
+    .pow-benifit-section {
+        padding: 55px 0;
+    }
+    .pow-unique-programme-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .pow-acco-inner-box {
+        justify-content: flex-start;
+    }
+    .pow-scco-box-details {
+        width: 65%;
+    }
+    .pow-online-class-feedback {
+        display: block;
+        position: relative;
+        padding: 40px 0px;
+    }
+    .hm-inner-desc {
+        width: 100%;
+    }
+    .pow-online-share-journy-box {
+        width: 50%;
+    }
+    .pow-online-share-journy {
+        padding: 40px 0px;
+    }
+    .pow-online-share-journy-container {
+        display: block;
+    }
+    .pow-online-share-journy-box {
+        width: 50%;
+        margin: 30px auto;
+        margin-top: 30px;
+    }
+    .pow-online-class-tips {
+        padding: 40px 0px;
+    }
+    .pow-online-class-tips-inner {
+        flex-direction: column;
+    }
+    .pow-online-class {
+        padding: 3rem 0 3rem;
+    }
+    .pow-online-share-journy {
+        padding: 20px 0px;
+    }
+    .pow-online-class-feedback {
+        padding: 20px 0px;
+    }
+    .pow-online-class-tips {
+        padding: 20px 0px;
+    }
+    .pow-ready-level-container {
+        flex-direction: column-reverse;
+    }
+    .pow-ready-level-price-container {
+        margin-left: 0;
+        margin-bottom: 20px;
+        max-width: 500px;
+    }
+    .pow-footer-inner {
+        flex-direction: column-reverse;
+    }
+    .pow-footer-inner-links-inner {
+        padding-left: 0;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .pow-online-feedback-box-right {
+        width: 50%;
+    }
+    .pow-online-feedback-box-right {
+        width: 50%;
+    }
+    .pow-left-hero-head2 h2 {
+        font-size: 45px;
+    }
+    .pow-courses-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .pow-courses-block {
+        border-bottom: 1px solid #e2e2e2;
+        padding: 10px 5px;
+        border-right: none;
+    }
+    .pow-courses-block:last-child {
+        border: none;
+    }
+    .hm-desc p {
+        max-width: 95%;
+    }
+    .pow-unique-programme-section {
+        padding: 40px 0 30px;
+    }
+    .pow-unique-box-title h2 {
+        font-size: 18px;
+    }
+    .pow-acco-inner-box {
+        flex-direction: column;
+        position: relative;
+    }
+    .pow-acco-inner-details li {
+        margin: 30px 0px;
+    }
+    .pow-acco-inner-box {
+        justify-content: center;
+        align-items: center;
+        max-width: 75%;
+        margin: auto;
+        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+        padding-top: 60px;
+    }
+    .pow-scco-box-details {
+        padding-left: 0px;
+        width: 100%
+    }
+    .pow-acco-box-title {
+        padding: 11px 0;
+    }
+    .pow-scco-box-details h3 {
+        margin: 0%;
+        text-align: center;
+    }
+    .pow-acco-box-description p {
+        text-align: center;
+    }
+    .pow-acco-box-days {
+        position: absolute;
+        top: -8%;
+    }
+    .pow-online-feedback-box {
+        flex-direction: column;
+    }
+    .hm-inner-title h3 {
+        text-align: center;
+    }
+    .hm-inner-desc p {
+        text-align: center;
+    }
+    .student-image-projects-preview-item {
+        margin: 10px;
+    }
+    .pow-projects-preview-content-container {
+        padding: 0;
+    }
+    .pow-footer-inner-links li {
+        display: block;
+        text-align: center;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .hm-desc p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .pow-header-links {
+        flex-direction: column;
+    }
+    .pow-unique-programme-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .pow-curriculum-timeline-container {
+        margin: 0 0px;
+    }
+    .pow-curriculum-timeline-details {
+        margin: 0 0 0 18px;
+    }
+    .pow-count_block {
+        padding: 0px;
+    }
+    .pow-count {
+        font-size: 20px;
+    }
+    .pow-testimonial-person-container::after {
+        width: 15px;
+        height: 15px;
+    }
+    .pow-panel {
+        PADDING: 10px 40px 10px 20px;
+    }
+}
