@@ -822,6 +822,7 @@ video#background-video {
 .pow-wolrd-class-section {
     position: relative;
     display: block;
+    background: var(--backgroundbiege);
 }
 
 .pow-world-class-container {
@@ -984,6 +985,10 @@ video#background-video {
     display: block;
     width: 75%;
     margin-bottom: 40px;
+}
+
+.hm-inner-desc p {
+    font-size: 15px;
 }
 
 .pow-online-feedback-box {
